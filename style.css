@@ -1,29 +1,50 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
     background-color: #000;
+    
 }
 h1{
+    font-family: "Bungee Tint", sans-serif;
+    background-color: rgb(244, 102, 7);
     text-align: center;
     color: rgb(255, 157, 0);
     font-size: 40px;
+    border-radius: 50px;
+    box-shadow: 0 4px 10px rgba(108, 108, 105, 0.4), /* Sombra externa más suave */
+                0 7px 8px rgba(126, 89, 75, 0.5); /* Sombra interna de color más oscuro */
+    
 }
 .anime-naruto{
    max-width: 1800px;
    
-
 }
 img{
     width: 500px;
     height: 600px;
-    
+    margin: 0 auto;
+    box-shadow: 0 4px 30px rgba(198, 168, 137, 0.953), /* Sombra externa más suave */
+                0 7px 8px rgba(237, 141, 7, 0.986);
+                height: auto;
+                transition: transform 0.3s ease, box-shadow 0.3s ease; /* Aplicamos transición */
+            }
+            
+            img:hover {
+                transform: scale(0.9); /* Escalamos la imagen un 10% al hacer hover */
+                box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); /* Añadimos una sombra */
+            }
 
+.lista-naruto{
+    color: rgb(255, 153, 0);
 }
-ol{
+.lista-saga{
+    color: rgb(255, 153, 0);
+}
+.lista-akatsuki{
     color: rgb(255, 153, 0);
 }
 h3,p{
+    font-family: "Baskervville SC", serif;
     color: rgb(255, 157, 0);
     font-size: 25px;
 }
